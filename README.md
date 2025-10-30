@@ -23,6 +23,8 @@ Docker
 Docker Compose
 LXDE
 Chromium
+Git
+
 
 Configure:
 kiosk mode on chromium target.
