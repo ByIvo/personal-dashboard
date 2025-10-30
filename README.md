@@ -31,3 +31,10 @@ kiosk mode on chromium target.
 display size;
 
 Download docker compose files under monitoring files and docker up
+
+dietpi-autostart -> set localhost:3000 as chromium kiosk entry.
+
+At `/var/lib/dietpi/dietpi-software/installed/chromium-autostart.sh`:
+ - Add `/home/dietpi/monitoring/docker compose up --wait` to ensure grafana runs and gets healthy before executing chromium on kiosk mode. Ps: Add it before exec command
+ - 
+
