@@ -3,7 +3,7 @@ This is my personal dashboard
 
 It runs on top of a raspbery pi 5, allowing me to create a dashboard to follow up with important stuff.
 
-The goal of this repo is to reproduce the steps I did to get it up and running again in the future.
+The goal of this repo is to reproduce the steps to get it up and running again in the future.
 
 ### Details:
 
