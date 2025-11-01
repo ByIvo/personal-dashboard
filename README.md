@@ -28,7 +28,7 @@ Then, go to search software, find and select the items below:
 
 ### Configure autostart
 Run `dietpi-autostart`
-Then go to option: `17: Custom script (foreground, with autologin) and paste the following autostart script:
+Then go to option: `17: Custom script (foreground, with autologin)` and paste the following autostart script:
 ```sh
 #!/bin/bash
 # DietPi-AutoStart custom script
