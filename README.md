@@ -49,7 +49,7 @@ unclutter -idle 1 -root &
 # Inicia Chromium em kiosk
 # localhost:3000 é onde o dashboard está localizado
 chromium --kiosk http://localhost:3000 --force-device-scale-factor=0.9 --noerrdialogs --disable-infobars
-``
+```
 Don't forget to enable auto log in with `dietpi` user.
 
 PS: You should exit without selecting any other option, otherwise it will override your autostart configuration.
@@ -58,6 +58,7 @@ PS2: You can also pick other autostart config for testing, such as bootstraping 
 ### Setting manually the display size
 I'm still not able to set it automatically; The only way I found was:
 open `/boot/dietpi.txt` and set the following properties:
+
 ```
 SOFTWARE_CHROMIUM_RES_X=1080
 SOFTWARE_CHROMIUM_RES_Y=2560
