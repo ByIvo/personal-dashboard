@@ -46,14 +46,14 @@ sudo nano /var/lib/dietpi/dietpi-software/installed/chromium-autostart.sh
 2. Before the last command (the one that starts chromium), append the following command:
 ```sh
 cd /home/dietpi/monitoring && docker compose up -d --wait
-``
+```
 
 ### Setting manually the display size
 I'm still not able to set it automatically; The only way I found was:
 open `/boot/dietpi.txt` and set the following properties:
 
 ```
-SOFTWARE_CHROMIUM_RES_X=1080
-SOFTWARE_CHROMIUM_RES_Y=2560
+SOFTWARE_CHROMIUM_RES_X=1080  
+SOFTWARE_CHROMIUM_RES_Y=2560   
 ```
 
