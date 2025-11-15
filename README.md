@@ -46,6 +46,9 @@ xrandr --output HDMI-1 --rotate right
 # Oculta o cursor
 unclutter -idle 1 -root &
 
+# Sobe containers e trava tela até todos estarem healthy
+cd /home/dietpi/monitoring && docker compose up -d --wait
+
 # Inicia Chromium em kiosk
 # localhost:3000 é onde o dashboard está localizado
 chromium --kiosk http://localhost:3000 --force-device-scale-factor=0.9 --noerrdialogs --disable-infobars
