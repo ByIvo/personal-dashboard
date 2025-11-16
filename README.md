@@ -26,6 +26,13 @@ Then, go to search software, find and select the items below:
 * Chromium - To access the dashboard on kisk mode (visulization only)
 * Git - To download confi files from this repo.
 
+### Configure timezone
+
+1. run `sudo dietpi-config`
+2. go to and select `5: Language/Regional Options`
+3. go to `Timezone` and pick yours (São paulo in my case)
+4. Select back and you're done
+
 ### Configure autostart
 
 #### Configure which appliation will autostart
